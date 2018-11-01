@@ -1,0 +1,119 @@
+body {
+    height: 100vh;
+  	margin: 0;
+	background-color: #097284;
+}
+
+header{
+	width:100%;
+	height: 10vh;
+	background-color: #01869E
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.base-title{
+	margin:0;
+	width: 60%;
+	font-family: 'Luckiest Guy', cursive;
+	color: #D9C200;
+	font-size: 5rem;
+}
+
+.base-score{
+	width:40%;
+	color:#D1186B;
+	font-size: 1.6rem;
+	font-family: 'Luckiest Guy', cursive;
+}
+.flex-base{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-base-question{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+ }
+	
+.base-question{
+	color: #84043E;
+	font-size: 1.6rem;
+	font-family: 'Comfortaa', cursive;
+	width: 90%;
+	border: 2px solid #D1186B;
+	text-align: justify;
+}
+.margin{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.padding-right{
+	padding-right: 20px;
+}
+.justify-end{
+	display:flex;
+	justify-content: flex-end;
+}
+
+.base-button{
+	background-color: #D1186B;
+	width:70%;
+	height: 5%;
+	font-size: 2rem;
+	font-family: 'Luckiest Guy', cursive;
+	color: #D9C200;
+}
+
+.base-button:hover{
+	outline: 2px solid #D9C200
+}
+.full-width{
+	width: 100%;
+}
+
+.end-sentence{
+	width:100%;
+	background-color: #01869E;
+	color: #84043E;
+	font-size: 1.6rem;
+	font-family: 'Comfortaa', cursive;
+}
+
+.bloc-buttons{
+	
+}
+
+@media (max-width: 500px) {
+	
+	.flex-base {
+		flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+	.base-header {
+		height: auto;
+	}
+	.base-title{
+	margin-top: 15px;
+	width: 60%;
+	font-family: 'Luckiest Guy', cursive;
+	color: #D9C200;
+	font-size: 3rem;
+    }
+
+    .margin{
+	margin-bottom: 15px;
+	margin-top: 15px;
+    }
+}
+
